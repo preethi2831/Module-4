@@ -9,10 +9,19 @@ To write a Python program that merges **two dictionaries** and combines their ke
    - The merged result will combine keys from both dictionaries. If a key exists in both, the value from `dict2` will overwrite that from `dict1`.
 3. Call the `merge()` function and print the merged dictionary.
 
-## 🧾 Program
-
-Add code here
+##  Program
+```
+dict1={'Ten': 10,'Twenty': 20,'Thirty': 30}
+dict2={'Thirty': 30,'Fourty': 40,'Fifty': 50}
+def merge (dict1,dict2): 
+   res={**dict1 , **dict2}
+   return res 
+dict3=merge(dict1,dict2)
+print(dict3) 
+```
 
 ## Output
+![image](https://github.com/user-attachments/assets/062c0363-8f76-47e4-8b8c-a49ae29bf442)
 
 ## Result
+Thus, the program has been successfully executed.

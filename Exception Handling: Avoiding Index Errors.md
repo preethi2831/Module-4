@@ -10,9 +10,17 @@ To write a Python program that handles an **IndexError** when trying to access a
    - In the `except` block, catch the error and print a custom message `"You're out of list range"`.
 3. Print the result based on whether the index access succeeds or fails.
 
-## 🧾 Program
-Add code here
+##  Program
+```
+list1=[5, 10, 20]
+try:
+print(list1[5]) 
+except: 
+print("You're out of list range") 
 
+```
 ## Output
+![image](https://github.com/user-attachments/assets/2e482e5b-af2b-4081-aaeb-f4ddef3ca79d)
 
 ## Result
+Thus, the program has been successfully executed.
